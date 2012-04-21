@@ -42,7 +42,7 @@ alias g="cd ~/Dropbox/git"
 alias o="open"
 alias oo="open ."
 alias m="mate ."
-alias colors="~/Dropbox/showColors.sh"
+alias colors="~/Dropbox/git/bash_profile/showColors.sh"
 alias exp="open ~/Dropbox/_Documents/_Taxes/Expenses.xlsx"
 
 # List all files colorized in long format
