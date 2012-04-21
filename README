@@ -1,5 +1,5 @@
 This is a simple terminal profile that I use on all macs.
 
-Works really well for me.
+Works really well for me.  Just run install.sh from terminal and it will copy .bash_profile to your root directory and activate it.
 
 Enjoy!
