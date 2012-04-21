@@ -15,7 +15,8 @@ export PATH=/opt/iOSOpenDev/bin:$PATH
 alias reload="source ~/.bash_profile"
 
 #backup this profile
-alias bup="cp ~/.bash_profile ~/Dropbox/_BACKUP"
+#alias bup="cp ~/.bash_profile ~/Dropbox/_BACKUP"
+alias bup="cp ~/.bash_profile ~/Dropbox/git/bash_profile"
 
 #Backup any file to Dropbox/_BACKUP
 cpBackup()
