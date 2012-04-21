@@ -1,0 +1,1 @@
+cp .bash_profile ~/
