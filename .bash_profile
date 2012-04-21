@@ -17,6 +17,7 @@ alias reload="source ~/.bash_profile"
 #backup this profile
 alias bup="cp ~/.bash_profile ~/Dropbox/_BACKUP"
 alias gitprofile="cp ~/.bash_profile ~/Dropbox/git/bash_profile"
+alias bupgit="cp ~/.bash_profile ~/Dropbox/git/bash_profile"
 
 #Backup any file to Dropbox/_BACKUP
 cpBackup()
@@ -65,6 +66,7 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias ipc="dig +short myip.opendns.com @resolver1.opendns.com | pbcopy"
 alias lanip="ipconfig getifaddr en1"
 alias ipl="ipconfig getifaddr en1"
 alias localip="ipconfig getifaddr en1"
