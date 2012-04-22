@@ -90,8 +90,8 @@ type -t md5sum > /dev/null || alias md5sum="md5"
 alias rmd="rm -R ."
 
 # Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
-alias clean="find . -type f -name '*.DS_Store' -ls -delete"
+alias cleanup="find . -name '*.DS_Store' -type f -delete"
+alias clean="find . -name '*.DS_Store' -type f -delete"
 
 
 # Empty the Trash on all mounted volumes and the main HDD
